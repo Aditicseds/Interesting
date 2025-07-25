@@ -12,7 +12,7 @@ public class EmailGeneratorApplication {
 		SpringApplication.run(EmailGeneratorApplication.class, args);
 	}
   @Bean
-	public WebClient webClient( ){
+	public WebClient WC( ){
 		return WebClient.builder().build();
   }
 }
